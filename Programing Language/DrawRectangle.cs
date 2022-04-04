@@ -13,10 +13,7 @@ namespace Programing_Language
         {
             class DrawRectangle : Command
             {
-                private string commandLine;
-                private int lineNumber;
-                private string width;
-                private string height;
+                
 
                 public DrawRectangle(string commandLine, int lineNumber)
                 {
