@@ -1,0 +1,9 @@
+red = 0
+size = 20
+moveto 200, 200
+while red < 255
+ colour red, 0, 0
+ circle size
+ size = size + 1
+ red = red + 1
+endwhile

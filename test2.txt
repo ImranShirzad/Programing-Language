@@ -1,0 +1,7 @@
+a = 10
+b = 20
+c = a * b
+moveto 200, 200
+circle c
+rect c, c
+tri c, c
